@@ -933,7 +933,6 @@
 
 .follower-mail {
   margin-left: 10px;
-  font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   display: flex;
@@ -972,13 +971,13 @@
   border: 0.5px solid #2c7cb2 !important;
   position: absolute;
   border-radius: 5px !important;
-  top: 20% !important;
+  top: 25% !important;
   left: 40%;
   transform: translate(-50%, -50%);
   z-index: 22;
   width: 550px !important;
   height: auto; /* Adjust height based on content */
-  max-height: calc(100% - 130px) !important; /* Ensures it doesn't exceed screen height */
+  max-height: calc(100% - 200px) !important; /* Ensures it doesn't exceed screen height */
   overflow-y: auto; /* Enables scrolling if content overflows */
   -webkit-animation: righttoleft 0.15s ease-in forwards;
   animation: righttoleft 0.15s ease-in forwards;
@@ -1118,7 +1117,7 @@
         width: 100%;
         color: white;
         font-weight: 600;
-        background: linear-gradient(90deg, #47b4d5 0.02%, #29449d 119.26%);
+        background: linear-gradient(90deg, #2c7cb2 0.02%, #2c7cb2 119.26%) !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1208,7 +1207,7 @@
   right: 0%;
   z-index: 22;
   width: 460px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 200px);
   -webkit-animation: righttoleft 0.15s ease-in forwards;
   animation: righttoleft 0.15s ease-in forwards;
 
@@ -1644,6 +1643,7 @@
   @include btn-animate(#fff);
   // position: fixed;
   bottom: 20px;
+  right:70px;
 }
 
 .goBack2 {
@@ -1679,6 +1679,7 @@
   border-radius: 10px;
   color: #ffffff;
   @include btn-animate(#fff);
+  left:45px;
 }
 
 .goBack1 {
@@ -1693,6 +1694,7 @@
   border-radius: 10px;
   color: #ffffff;
   @include btn-animate(#fff);
+  left:45px;
 }
 
 .acc-upload {
